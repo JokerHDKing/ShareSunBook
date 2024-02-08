@@ -1,0 +1,61 @@
+<!--pages/mine/mine.wxml-->
+<!--index.wxml-->
+<view class="container">
+	<view class="header"  >
+	<!-- bindtap="clickPic" -->
+		<view class="content">
+			<view class="left">
+				<image class="pic" bindtap="clickPic" src="https://tupian.qqw21.com/article/UploadPic/2020-4/2020442233481257.jpg" mode="widthFix" />
+			</view>
+			<view class="right">
+				<view>读者用户</view>
+				<view class="right-footer">学校</view>
+			</view>
+		</view>
+	</view>
+	<!-- 主体部分 -->
+	<view class="main">
+		<view class="viewPonit">
+			<view wx:for="{{3}}" wx:key="index">
+				<view bindtap="clickP" data-index="{{index}}">
+					<text>123</text>
+					<text style="font-size: 20rpx; color: rgb(110, 110, 110)">我的积分</text>
+				</view>
+			</view>
+		</view>
+		<!-- 我的订单 -->
+		<view class="myorder">
+			<view class="item" bindtap="myBorrow">
+				<van-icon  name="pending-payment" />
+				<view>我的借阅</view>
+			</view>
+			<view class="item">
+				<van-icon name="pending-payment" />
+				<view>我的订单</view>
+			</view>
+			<view class="item">
+				<van-icon name="pending-payment" />
+				<view>我的书架</view>
+			</view>
+			<view class="item">
+				<van-icon name="pending-payment" />
+				<view>我的藏书</view>
+			</view>
+		</view>
+		<!-- 选项 -->
+		<view class="choice">
+			<van-cell-group>
+				<van-cell custom-class="custom-cell" icon="location-o" title="地址管理" value="" is-link />
+				<van-cell custom-class="custom-cell" icon="shopping-cart-o" title="购物车" value="" is-link />
+			</van-cell-group>
+
+			<van-cell-group>
+				<van-cell custom-class="custom-cell" icon="location-o" title="推广有奖" url=""  value="" is-link />
+				<van-cell custom-class="custom-cell" icon="shopping-cart-o" title="关于我们" value="" is-link />
+				<van-cell custom-class="custom-cell" icon="shopping-cart-o" title="意见反馈 & 客服" value="" is-link />
+				<van-cell custom-class="custom-cell" icon="shopping-cart-o" title="设置" value="" is-link />
+			</van-cell-group>
+		</view>
+	</view>
+
+</view>

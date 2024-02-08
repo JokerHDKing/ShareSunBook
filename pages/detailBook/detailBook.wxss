@@ -1,0 +1,97 @@
+/* pages/detailBook/detailBook.wxss */
+/* pages/proDetail/proDetail.wxss */
+.detail {
+  display: flex;
+  padding: 40rpx 0;
+  background-color: #f7f7f7;
+}
+
+.detail .banner {
+  border: 1rpx solid #f7f7f7;
+  width: 270rpx;
+  padding-left: 8rpx;
+  height: 368rpx;
+}
+
+.detail .banner image {
+  width: 100%;
+  height: 100%;
+}
+
+.detail .textMain {
+  padding: 0 30rpx;
+}
+
+.detail .textMain .title {
+  padding-bottom: 10rpx;
+  font-size: 40rpx;
+  color: #333;
+}
+
+.detail .textMain .price {
+  display: block;
+  justify-content: start;
+}
+
+.detail .textMain .price .left {
+  color: red;
+}
+
+.detail .textMain .price .left > text:first-child {
+  font-size: 25rpx;
+}
+
+.detail .textMain .price .left > text:last-child {
+  font-size: 40rpx;
+  padding-right: 15rpx;
+}
+
+.detail .textMain .price .right {
+  color: #8e8e8e;
+  font-size: 30rpx;
+}
+
+.detail .textMain .price .right > text:last-child {
+  color: red;
+}
+
+.detail .textMain .textitem {
+  border-top: 1px solid #dedede;
+  margin-top: 20rpx;
+  padding-top: 3rpx;
+}
+
+.detail .textMain .row {
+  display: flex;
+  padding-bottom: 10rpx;
+}
+
+.detail .textMain .row .left {
+  font-size: 26rpx;
+  color: #888;
+}
+
+.detail .textMain .row .right {
+  font-size: 26rpx;
+  color: #666;
+  padding-left: 30rpx;
+}
+
+.category {
+  padding-left: 8rpx;
+  background-color: #f7f7f7;
+}
+
+.detailcontent {
+  padding: 20rpx 8rpx;
+  border-top: 1rpx solid #f7f7f7;
+  background-color: #ffffff;
+}
+
+.detailcontent .jianjie {
+  padding-bottom: 20rpx;
+}
+
+.detailcontent .content {
+  font-size: 50rpx;
+}

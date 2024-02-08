@@ -1,0 +1,87 @@
+/* pages/mine/mine.wxss */
+.container {
+  height: 100%;
+}
+
+.container .header {
+  width: 100%;
+  height: 300rpx;
+  background: -webkit-linear-gradient(left, #54beff, #949fff, #cdb6ff);
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding-left: 60rpx;
+}
+
+.container .header .content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .header .content .left .pic {
+  width: 100rpx;
+  border-radius: 100%;
+}
+
+.container .header .content .right {
+  margin-left: 30rpx;
+  color: white;
+}
+
+.container .header .content .right .right-footer {
+  background-color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  border-radius: 50rpx;
+  padding: 6rpx 0;
+  font-size: 30rpx;
+  margin-top: 10rpx;
+}
+
+.container .main {
+  position: absolute;
+  top: 280rpx;
+  background: white;
+  border-radius: 40rpx 40rpx 0 0;
+  height: 1000rpx;
+  width: 100%;
+}
+
+.container .main .viewPonit {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 120rpx;
+  border-bottom: 1rpx solid #f1f1f1;
+  padding-bottom: 20rpx;
+}
+
+.container .main .viewPonit > view > view {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container .main .myorder {
+  border-top: 1rpx solid #f1f1f1;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20rpx;
+  padding-bottom: 40rpx;
+}
+
+.container .main .myorder .item {
+  width: 23%;
+  margin-left: 3%;
+  text-align: center;
+}
+
+.container .main .myorder .item van-icon {
+  font-size: 50rpx;
+}
+
+.container .main .choice .custom-cell {
+  padding-top: 8rpx;
+  font-size: 40rpx;
+}

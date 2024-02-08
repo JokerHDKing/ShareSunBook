@@ -1,0 +1,12 @@
+<!--pages/index/login.wxml-->
+<view class="loginH">
+	<image class="pic" src="https://pic.baike.soso.com/p/20120714/20120714113347-176292682.jpg" />
+	<button  open-type='getPhoneNumber' bindgetphonenumber="getPhoneNumber"  type="primary" disabled='{{btn_disabled}}'>手机号码授权登录</button>
+	<!--相关协议-->
+	<view class="accord">
+		<van-checkbox custom-class="click" value="{{ checked }}" checked-color="#07c160" bind:change="bindAgreeChange"></van-checkbox>
+		<view>我已阅读并同意<text style="color:red ;" bindtap="navTo1">《用户服务协议》</text>
+			<text style=" color:red ;">《隐私权政策》</text>,未注册手机号在登录后将自动为您创建长大读书账号
+		</view>
+	</view>
+</view>

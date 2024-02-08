@@ -1,0 +1,32 @@
+<!--component/cart/cart.wxml-->
+/* component/cart/cart.wxss */
+<!--component/cart/cart.wxml-->
+<view class="btm_tool">
+	<view class="tool_item">
+		<!-- icon图标 -->
+		<view class="iconfont ">
+			<icon type='success' size="30"></icon>
+		</view>
+		<view>客服</view>
+	</view>
+	<view class="tool_item">
+		<!-- icon -->
+		<view class="iconfont ">
+			<icon type='success' size="30"></icon>
+		</view>
+		<view>分享</view>
+		<button open-type="share"></button>
+	</view>
+	<navigator open-type="switchTab" url="" class="tool_item">
+		<view>
+			<icon type='success' size="30"></icon>
+		</view>
+		<view>购物车</view>
+	</navigator>
+	<view class="tool_item btn_cart">
+		加入购物车
+	</view>
+	<view class="tool_item btn_buy">
+		立即购买
+	</view>
+</view>

@@ -1,0 +1,19 @@
+<!--pages/circulation/circulation.wxml-->
+<view class="banner">
+ <image class="pic" src="/images/teaBanner.jpg" mode="aspectFill"/>
+</view>
+<view class="nav">
+	<van-tabs color="#BDA066"  border  title-active-color="#BDA066"	
+	id="myTabs"
+	bind:click="navChange"
+	active="{{ navActive }}">
+   <van-tab title="{{item.classname}}"wx:for="{{navArr}}" wx:key="_id"></van-tab>
+</van-tabs>
+</view>
+<view class="content">
+	<view class="body">
+	<view class="box" wx:for="{{proArr}}" wx:key="_id">
+		<xzs-product-item item="{{item}}" title="{{item.title}}"></xzs-product-item>
+	</view>
+	</view>
+</view>
