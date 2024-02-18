@@ -1,18 +1,11 @@
-// pages/detailBook/detailBook.js
+// pages/mine/setting/setting.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    item:{
-      type:Object,
-      value:{
-        title:"默认标题",
-      
-        
-      }
-    }
+    checked: true,
   },
 
   /**
@@ -20,6 +13,11 @@ Page({
    */
   onLoad(options) {
 
+  },
+  onChange({ detail }) {
+    console.log("进入暗黑模式");
+    // 需要手动对 checked 状态进行更新
+    this.setData({ checked: detail });
   },
 
   /**

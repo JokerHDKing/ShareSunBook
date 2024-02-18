@@ -1,0 +1,9 @@
+<!--component/Book-item/Book-item.wxml-->
+<view class="book">
+	<image class="pic" src="https://img14.360buyimg.com/n6/jfs/t1/187536/31/42622/92600/65091a77F49dc7229/497f6d631fc7a7c2.jpg" mode="heightFix"/>
+	<view class="content">
+		<view class="title">python编程</view>
+		<view class="author">作者</view>
+		<view class="cost"><text decode="true">￥10.50/&ensp;</text><text style="color: #86cdff;">3.62折扣</text></view>
+	</view>
+</view>

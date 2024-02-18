@@ -5,10 +5,12 @@
     "pages/publish/publish",
     "pages/circulation/circulation",
     "pages/activity/activity",
+    "pages/search/search",
     "pages/mine/mine",
     "pages/detailBook/detailBook",
     "pages/mine/Login/Login",
-    "pages/mine/accord/accord"
+    "pages/mine/accord/accord",
+    "pages/mine/setting/setting"
   ],
   "tabBar": {
     "list": [

@@ -53,7 +53,7 @@
 				<van-cell custom-class="custom-cell" icon="location-o" title="推广有奖" url=""  value="" is-link />
 				<van-cell custom-class="custom-cell" icon="shopping-cart-o" title="关于我们" value="" is-link />
 				<van-cell custom-class="custom-cell" icon="shopping-cart-o" title="意见反馈 & 客服" value="" is-link />
-				<van-cell custom-class="custom-cell" icon="shopping-cart-o" title="设置" value="" is-link />
+				<van-cell custom-class="custom-cell" icon="setting-o" title="设置" value="" is-link  url="/pages/mine/setting/setting" />
 			</van-cell-group>
 		</view>
 	</view>

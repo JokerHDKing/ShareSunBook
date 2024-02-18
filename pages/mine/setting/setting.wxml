@@ -1,0 +1,14 @@
+<!--pages/mine/setting/setting.wxml-->
+<view class="choice">
+			<van-cell-group>
+				<van-cell custom-class="custom-cell" icon="location-o" title="夜间模式">
+					<van-switch checked="{{ checked }}" bind:change="onChange" />
+				</van-cell>
+				<van-cell custom-class="custom-cell" icon="shopping-cart-o" title="购物车" value="" is-link />
+			</van-cell-group>
+</view>
+
+
+
+
+

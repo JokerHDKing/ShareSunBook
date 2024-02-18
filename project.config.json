@@ -3,6 +3,7 @@
   "setting": {
     "coverView": true,
     "es6": true,
+    "es5": true,
     "postcss": true,
     "minified": true,
     "enhance": true,

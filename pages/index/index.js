@@ -79,6 +79,11 @@ Page({
     }
   },
   //查询图书
+  searchInput(){
+    wx.navigateTo({
+      url: '/pages/search/search',
+    })
+  },
   search:function(){
     var that=this;
     wx.request({

@@ -1,0 +1,34 @@
+.book {
+  padding: 0 20rpx;
+  display: flex;
+  height: 100px;
+  width: 100%;
+  position: relative;
+}
+
+.book .pic {
+  width: 80px;
+  height: 100px;
+}
+
+.book .content {
+  flex: 1;
+  position: relative;
+}
+
+.book .content .title {
+  font-size: 30rpx;
+  font-weight: bold;
+}
+
+.book .content .author {
+  padding-top: 5rpx;
+  color: #9787a6;
+  font-size: 23rpx;
+}
+
+.book .content .cost {
+  font-size: 30rpx;
+  position: absolute;
+  bottom: 0;
+}

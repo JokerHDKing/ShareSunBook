@@ -1,0 +1,4 @@
+/* pages/mine/setting/setting.wxss */
+.choice{
+ width: 750rpx;
+}
