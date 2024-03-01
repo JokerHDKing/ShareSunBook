@@ -1,16 +1,17 @@
 /* pages/detailBook/detailBook.wxss */
-/* pages/proDetail/proDetail.wxss */
 .detail {
   display: flex;
   padding: 40rpx 0;
   background-color: #f7f7f7;
+  width: 100%;
 }
 
 .detail .banner {
   border: 1rpx solid #f7f7f7;
-  width: 270rpx;
-  padding-left: 8rpx;
+  width: 60%;
+  margin-left: 20rpx;
   height: 368rpx;
+  position: relative;
 }
 
 .detail .banner image {
@@ -20,12 +21,17 @@
 
 .detail .textMain {
   padding: 0 30rpx;
+  width: 50%;
 }
 
 .detail .textMain .title {
   padding-bottom: 10rpx;
   font-size: 40rpx;
   color: #333;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+
 }
 
 .detail .textMain .price {
@@ -74,7 +80,7 @@
 .detail .textMain .row .right {
   font-size: 26rpx;
   color: #666;
-  padding-left: 30rpx;
+  padding-left: 10rpx;
 }
 
 .category {
@@ -93,5 +99,6 @@
 }
 
 .detailcontent .content {
-  font-size: 50rpx;
+  font-size: 30rpx;
+  margin-bottom:50px ;
 }

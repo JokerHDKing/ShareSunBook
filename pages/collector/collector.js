@@ -1,6 +1,7 @@
 // pages/collector/collector.js
 var app = getApp();
 var host=app.globalData.localHost;
+let isbn;
 Page({
 
   /**
@@ -80,9 +81,13 @@ filter:function(e){
 scanIsbn:function(){
   wx.scanCode({
     success:res=>{
+      console.log(res)
       if(res.errMsg=="scanCode:ok" & res.scanType=="EAN_13")
       {
-        console.log(res);
+        isbn=res.result;
+        wx.navigateTo({
+          url: '/pages/collector/AddBook/AddBook?isbn='+isbn,
+        })
       }
     }
   });
