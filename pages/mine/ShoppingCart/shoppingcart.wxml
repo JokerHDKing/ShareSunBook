@@ -1,0 +1,7 @@
+<!--pages/mine/ShoppingCart/shoppingcart.wxml-->
+<text>pages/mine/ShoppingCart/shoppingcart.wxml</text>
+<view class="book-container">
+<view class="book-list" style="height: 100px;">
+
+</view>
+</view>

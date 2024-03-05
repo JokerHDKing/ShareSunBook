@@ -1,0 +1,13 @@
+<!--pages/mine/PointExchange/PointExchange.wxml-->
+<text>pages/mine/PointExchange/PointExchange.wxml</text>
+{{item.prize}}
+{{item.point}}
+<view class="content">
+	<view class="body">
+		<view class="box" wx:for="{{3}}" wx:key="index">
+			<prize-item prize="{{item.prize}}" point="{{item.point}}"></prize-item>
+		</view>
+	</view>
+</view>
+
+

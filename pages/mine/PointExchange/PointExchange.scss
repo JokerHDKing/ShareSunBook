@@ -1,0 +1,12 @@
+.content{
+	.body{
+		padding: 50rpx 30rpx;
+		display: flex;
+		justify-content: space-between;
+		flex-wrap:wrap;
+		.box{
+			width: 330rpx;
+			margin-bottom: 30rpx;
+		}
+	}
+}

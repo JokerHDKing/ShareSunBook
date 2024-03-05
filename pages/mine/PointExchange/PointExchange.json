@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "prize-item":"/component/prize-item/prize-item"
+  }
+}

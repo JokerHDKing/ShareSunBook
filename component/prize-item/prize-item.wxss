@@ -1,0 +1,28 @@
+.prize {
+  border: 1px solid #eee;
+}
+
+.prize .pic .image {
+  width: 100%;
+}
+
+.prize .text .prize-name {
+  text-align: center;
+  padding-bottom: 10rpx;
+  font-weight: bold;
+}
+
+.prize .text .exchange {
+  display: flex;
+  justify-content: space-between;
+}
+
+.prize .text .exchange .prize-points {
+  width: 40%;
+  text-align: center;
+  line-height: 100rpx;
+}
+
+.prize .text .exchange .exchange-button {
+  width: 60%;
+}

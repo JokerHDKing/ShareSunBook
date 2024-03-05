@@ -1,0 +1,24 @@
+<!-- component/prize-item/prize-item.wxml-->
+<!-- <text>component/prize-item/prize-item.wxml</text> -->
+{{point}}
+<view class="prize">
+	<view class="pic">
+		<image class="image" mode="widthFix" src="https://cbu01.alicdn.com/img/ibank/O1CN01V2dvZI1tcKAsxAorI_!!2209881395922-0-cib.jpg"></image>
+	</view>
+	<view class="text">
+		<view class="prize-name"> 奖品名称</view>
+		<view class="exchange">
+			<view class="prize-points">{{prize.point}}</view>
+			<view class="exchange-button">
+				<view wx:if="{{6}}">
+					<button > 兑换</button>
+				</view>
+				<view wx:else>
+					<button disabled="true"> 兑换</button>
+				</view>
+			</view>
+		</view>
+	
+	</view>
+	
+</view>

@@ -1,0 +1,38 @@
+page{
+	background-color: #f5f5f5;
+}
+.box{
+	margin-top: 20rpx;
+	margin-right: 20rpx;
+	margin-left: 20rpx;
+	display: flex;
+	justify-content: space-between;
+	background-color: #ffffff;
+	border-radius: 10rpx;
+	border: 1px solid red; /* 添加这行来设置边框 */
+	.left{
+		width: 85%;
+		.Loc{
+			height: 225rpx;
+			width: 100%;
+			.userD{
+				font-size: large;
+				width: 100%;
+				display: inline-block;
+				white-space: nowrap;
+				overflow: hidden;
+				text-overflow: ellipsis;
+				max-width: 100%;
+			}
+		}
+	}
+	.right{
+		background-color: chartreuse;
+		width: 15%;
+		text-align: center;
+		padding-top: 83rpx;
+		font-size: 50rpx;
+		
+	}
+
+}

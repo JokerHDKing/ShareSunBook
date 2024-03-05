@@ -1,0 +1,21 @@
+<!--pages/mine/LocMana/LocMana.wxml-->
+<text>pages/mine/LocMana/LocMana.wxml</text>
+<button size="default">+添加地址</button>
+<view class="box" wx:for="{{3}}">
+<view class="left">
+	<view class="Loc">
+		<!-- 地址详情 -->
+		<view class="LocDeatil">
+		ss
+		</view>
+		<view class="userD">
+			<text>蜡笔小新</text>
+			<text>18171799952</text>
+		</view>
+	</view>
+</view>
+<view class="right">
+	<van-icon name="edit" />
+</view>
+
+</view>

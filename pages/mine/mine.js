@@ -5,6 +5,14 @@ Page({
    */
   data: {
     isLogin:false,
+    point:"100",
+    prize:{
+      type:Object,
+      value:{
+        title:"奖品名称",
+        point:"50",
+      }
+    }
   },
 
   /**
@@ -22,7 +30,21 @@ Page({
     }
   },
   clickP(e){
-    console.log(e.currentTarget.dataset.index);
+    //传输一个ob对象
+    var str=JSON.stringify(this.data.prize)
+    console.log("我的积分");
+    wx.navigateTo({
+      url: '/pages/mine/PointExchange/PointExchange?point='+this.data.point+"&prize="+str,
+    })
+
+  },
+  clickP1(e){
+    console.log("我的积分1");
+
+  },
+  clickP2(e){
+    console.log("我的积分2");
+
   },
   myBorrow(e){
     console.log("我的借阅");
