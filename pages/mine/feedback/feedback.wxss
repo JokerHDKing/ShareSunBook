@@ -1,0 +1,8 @@
+/* pages/mine/feedback/feedback.wxss */
+.bt{
+	padding-top: 10rpx;
+	width: 100%; /* 设置 .bt 的宽度 */
+	display: flex;
+	justify-content:space-between; /* 使子元素沿父元素的右侧对齐 */
+	color: #666666;
+}

@@ -1,0 +1,9 @@
+<!--pages/mine/feedback/feedback.wxml-->
+<text>pages/mine/feedback/feedback.wxml</text>
+<image src="/images/1710129779328_temp_qrcode_share_9993.png"mode="aspectFill"></image>
+<button open-type="contact">
+<view class="bt">
+<text class="contact" decode="true" space="nbsp" >联系客服  (09:00-20:00) </text>
+<text class="right"> ></text>
+</view>
+</button>
