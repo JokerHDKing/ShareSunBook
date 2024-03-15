@@ -1,0 +1,39 @@
+/* component/BookHolder/BookHolder.wxss */
+.users{
+  margin-top: 20rpx;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.3);
+  background-color: #ffffff;
+  align-items: center; /* 垂直居中 */
+  box-sizing: border-box;
+}
+.users .left {
+	height: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center; /* 垂直居中 */
+}
+.users .left .pic{
+  padding-left: 20rpx;
+  height: 120rpx;
+  width: 120rpx;
+}
+.users .left .info{
+  height: 38%;
+}
+.users .left .info .name{
+  padding-left: 20rpx;
+  margin-top: 10rpx;
+}
+.users .left .info .status{
+  color: grey;
+  font-size: 12px;
+  padding-left: 25rpx;
+  margin-top: 2px;
+}
+ .users .right{
+  padding-right: 10rpx;
+}

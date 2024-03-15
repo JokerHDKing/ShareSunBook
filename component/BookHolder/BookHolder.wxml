@@ -1,0 +1,16 @@
+<!--component/BookHolder/BookHolder.wxml-->
+<view style="font-size: large;">图书所有者</view>
+<view class="users">
+	<view class="left">
+		<van-image custom-class="pic" round fit="cover" src="{{item.image}}" />
+		<view class="info">
+			<text class="name">{{item.nickName}}</text>
+			<view class="status">
+				<text>{{item.bookType}},{{item.bookState}}</text>
+			</view>
+		</view>
+	</view>
+	<view class="right"><button type="primary" plain="">联系藏家</button></view>
+
+
+</view>
